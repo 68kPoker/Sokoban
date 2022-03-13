@@ -7,5 +7,18 @@ struct menuSokobana
 	BOOL wyjscie;
 };
 
+enum
+{
+	KOLOR_CGA,
+	KOLOR_TANDY,
+	KOLOR_AMIGA
+};
+
+enum
+{
+	STER_JOYSTICK,
+	STER_KLAWIATURA
+};
+
 struct menuSokobana obsluzMenu(struct Window *w);
 
