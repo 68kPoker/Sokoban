@@ -4,6 +4,9 @@
 
 #include "SokoMenu.h"
 
+BOOL wybierzKolor(struct Window *w, struct menuSokobana *menu);
+BOOL wybierzSterowanie(struct Window *w, struct menuSokobana *menu);
+
 struct menuSokobana obsluzMenu(struct Window *w)
 {
 	struct menuSokobana menu;
